@@ -42,9 +42,6 @@ ArmorTick.attachTo({
 	id: ItemID.inf_chestplate,
 	type: 1,
 	tick: function() {
-		if(Player.getFlying()){
-			alert('fly');
-            }
 			//if(time == 0){
 			//if(attach.isAttached)	arender.clear();
 					/*attach.setRenderer(arender);
